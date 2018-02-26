@@ -5,6 +5,7 @@ import store from './redux/store/configureStore'
 import App from './App'
 import registerServiceWorker from './registerServiceWorker'
 import './style/style.css'
+import 'antd/dist/antd.css'
 
 ReactDOM.render(
     <Provider store={store}>
