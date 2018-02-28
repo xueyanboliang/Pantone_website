@@ -3,4 +3,17 @@ body {
     padding: 0;
     font-family: sans-serif;
   }
-  
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}  
+.center {
+  margin: auto 190px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}

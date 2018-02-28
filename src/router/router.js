@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { HashRouter as Router, Route} from 'react-router-dom'
-import Index from '../pages/Home/home'
+import HomePage from '../pages/HomePage/homePage'
 
 class Routes extends Component {
 
@@ -8,7 +8,7 @@ class Routes extends Component {
         return (
             <Router>
                 <div>
-                    <Route path="/" component={Index} />
+                    <Route path="/" component={HomePage} />
                 </div>
             </Router>
         );

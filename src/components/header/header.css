@@ -1,0 +1,68 @@
+.header {
+
+}
+.header_top {
+    background: #f7f7f7;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+}
+.tag img {
+    margin-top: 10px;
+    width: 35px;
+    height: 25px;
+}
+.header_middle {
+    position: relative;
+    height: 130px;
+    border-bottom: 4px solid #7d7d7a;
+}
+.welcome {
+    padding-right: 10px;
+    font:normal bold 14px/40px arial,sans-serif;
+}
+.forLook {
+    margin-top: 15px;
+}
+.forLook li {
+    float: left;
+    padding-left: 12px;
+    padding-right: 5px;
+    line-height: 14px;
+    height: 14px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+.forLook li span {
+    display: inline-block;
+    height: 100%;
+}
+.forLook .lastRow {
+    border: none;
+}
+.header_middle .branding {
+    position: absolute;
+    left: 30px;
+    top: 40px;
+}
+.header_middle .search {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.header_middle .header_nav {
+    position: absolute;
+    left:0;
+    top: 92px;
+    padding-left: 160px;
+    width: 100%;
+}
+.header_nav ul li {
+    float: left;
+    margin-left: 32px;
+    height: 31px;
+    font:normal bold 18px arial,sans-serif;
+}
+.header_nav ul li:hover {
+    color: #00afd8;
+    cursor: pointer;
+}
